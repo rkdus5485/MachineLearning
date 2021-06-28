@@ -1,7 +1,7 @@
 # MachineLearning 기계학습
 # 2021 - 1 학기 '기계학습'
 
-## PCA, LDA 구현하기
+## 1) PCA, LDA 구현하기
 - Curse of Dimensionality, 일명 '차원의 저주'는 차원이 늘어남에 따라 모델의 성능이 저하되는 현상이다. 
 - 이를 해결하기 위해 'PCA', 'LDA'를 이용하여 차원을 축소한다.
 - PCA와 LDA 방법을 사용하여 각 이미지들을 차원축소하고 eigenvector들로 표현하였을때 얼마나 잘 표현되는지에 대해 실험한다.
@@ -23,9 +23,9 @@
 - EM Algorithm이 사용되는 경우로는 'missing data', 'mixture of Gaussian', 'Hidden Markov Chain'등의 예시가 있다.
 - 그 중 'Mixture of Gaussian'에 EM Algorithm을 적용한 실험이다.
 
-### Mixture of Gaussian
+### 2) Mixture of Gaussian
 - Gaussian Mixture Model(GMM)은 Gaussian 분포가 여러개 혼합된 clustering 알고리즘이다.
 - 복잡한 형태의 확률 분포를 여러개의 Gaussian 분포를 혼합하여 표현하자 하는 것이 GMM의 기본 아이디어이다.
 
 ### EM Algorithm
-- EM Algorithm은 관측되지 않은 잠재변수(latent variables)에 의존하는 확률 모델에서 maximum likelihood를 갖는 최적의 매개변수 \theta 를 찾는 반복적인 알고리즘이다.
+- EM Algorithm은 관측되지 않은 잠재변수(latent variables)에 의존하는 확률 모델에서 maximum likelihood를 갖는 최적의 매개변수 $$theta$$ 를 찾는 반복적인 알고리즘이다.
