@@ -18,3 +18,14 @@
 ### LDA(Linear Discriminant Analysis)
 - LDA는 class 간 거리(S_B)는 멀게, class안의 분산(S_W)은 작게 유지시키는 것이 목적
 - LDA는 차원축소 후 ‘fisher face’를 출력해 본다
+
+## Mixture of Gaussian의 EM Algorithm
+- EM Algorithm이 사용되는 경우로는 'missing data', 'mixture of Gaussian', 'Hidden Markov Chain'등의 예시가 있다.
+- 그 중 'Mixture of Gaussian'에 EM Algorithm을 적용한 실험이다.
+
+### Mixture of Gaussian
+- Gaussian Mixture Model(GMM)은 Gaussian 분포가 여러개 혼합된 clustering 알고리즘이다.
+- 복잡한 형태의 확률 분포를 여러개의 Gaussian 분포를 혼합하여 표현하자 하는 것이 GMM의 기본 아이디어이다.
+
+### EM Algorithm
+- EM Algorithm은 관측되지 않은 잠재변수(latent variables)에 의존하는 확률 모델에서 maximum likelihood를 갖는 최적의 매개변수 \theta 를 찾는 반복적인 알고리즘이다.
