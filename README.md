@@ -2,7 +2,8 @@
 # 2021 - 1 학기 '기계학습'
 
 ## 1) PCA, LDA 구현하기
-![eigen_face](/images/Eigen_face.png)
+![eigen_face](/images/Eigen_face.png){: width="100" height="100"}
+![fisher_face](/images/Fisher_face.png){: width="100" height="100"}
 - Curse of Dimensionality, 일명 '차원의 저주'는 차원이 늘어남에 따라 모델의 성능이 저하되는 현상이다. 
 - 이를 해결하기 위해 'PCA', 'LDA'를 이용하여 차원을 축소한다.
 - PCA와 LDA 방법을 사용하여 각 이미지들을 차원축소하고 eigenvector들로 표현하였을때 얼마나 잘 표현되는지에 대해 실험한다.
