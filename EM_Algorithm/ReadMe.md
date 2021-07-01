@@ -16,4 +16,4 @@
 ### 원래 데이터와 분류 후의 데이터를 비교해보면 100%의 정확도로 잘 분류되었음을 볼 수 있다.
 
 - 하지만 class의 수가 많아질수록 분류가 잘 되지 않았다.
-<img src="/images/error.png" width="500" height="400">
+<img src="/images/error.png" width="500" height="350">
