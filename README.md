@@ -22,7 +22,7 @@
 
 
 ## 2) Mixture of Gaussian의 EM Algorithm
-<img src="/images/MoG.png" width="300" height="200"><img src="/images/Clustering.jpg" width="300" height="200">
+<img src="/images/MoG.png" width="300" height="200"><img src="/images/Clustering.png" width="300" height="200">
 - EM Algorithm이 사용되는 경우로는 'missing data', 'mixture of Gaussian', 'Hidden Markov Chain'등의 예시가 있다.
 - 그 중 'Mixture of Gaussian'에 EM Algorithm을 적용한 실험이다.
 
